@@ -106,6 +106,7 @@ kitten.onload = function(){ //this just makes sure the image is loaded in the ba
     window.addEventListener("dblclick", function(event){
         if(cute){
             body.style.background = "none"
+            cute = false;
         }
     });
     
