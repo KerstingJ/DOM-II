@@ -24,7 +24,7 @@ conts.addEventListener("click", function(event){
 const navItems = document.querySelectorAll("nav a");
 navItems.forEach(function(item){
     item.addEventListener("click", function(event){
-        event.target.style.cColor = randomColor();
+        event.target.style.color = randomColor();
         event.preventDefault();
         event.stopPropagation();
     })
